@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+
+    font-family: sans-serif;
+}  
+
+a{
+
+    color: white;
+}
+
+
+header{
+    background-color: black;
+
+    padding-left: 100px;
+
+    background-image: url(Mike\ copy\ 5_071938.jpg);
+
+    background-repeat: none;
+
+    background-attachment: fixed;
+
+    background-size: cover;
+    
+}
+
+
+.nav{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    padding-top: 30px;
+}
+
+ul {
+
+    display: flex;
+
+    padding-left: 100px;
+
+    list-style-type: none;
+}
+
+ul li a{
+
+    padding-right: 30px;
+
+    text-decoration: none;
+
+    color: white;
+}
+
+ul li :hover{
+
+    color: rgb(207, 10, 43);
+
+    transition: 0.4s ease-in-out;
+
+}
+
+    input[type="search"]{
+
+    background-color: transparent;
+    height: 40px;
+    border: none;
+    color: wheat;
+}
+
+.nav__bar{
+
+    display: flex;
+}
+
+main{
+
+    margin-top: 130px;
+}
+
+
+h1{
+    width: 300px;
+}
+
+.btn{
+    
+    margin-top: 50px;
+
+    background-color: rgb(0, 0, 0);
+
+    border-color: rgb(167, 7, 34);
+
+    height: 40px;
+
+    width: 150px;
+
+    
+}
+
+.btn a{
+
+    text-decoration: none;
+
+    font-weight: bolder;
+}
+
+
+.container{
+
+    margin-top: 140px;
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+}
+
+.container p{
+    width: 230px;
+
+}
+
+.chart{
+    
+    padding-top: 30px;
+
+    padding-left: 30px;
+
+    background-color: rgb(186, 13, 41);
+
+    height: 250px;
+
+    width: 300px;
+}
+
+.design{
+
+    padding-left: 30px;
+
+    padding-top: 30px;
+
+    background-color: rgb(20, 20, 26);
+
+    height: 250px;
+
+    width: 300px;
+
+
+}
+
+.innovate{
+    padding-left: 30px;
+
+
+    padding-top: 30px;
+
+
+    background-color: rgb(8, 15, 24);
+
+    height: 250px;
+
+    width: 300px;
+
+
+}
+
+
+ .innovate p{
+
+    padding-top: 40px;
+}
+
+ .design p{
+
+    padding-top: 40px;
+
+
+ }
+
+ .chart p{
+
+    padding-top: 40px;
+
+ }
+
+ footer{
+
+    color: black;
+ }
+
+ .services{
+
+    color: black;
+
+    background-color: grey;
+
+    width: 200px;
+    
+  
+ }
+
+ .service{
+
+    color: rgb(0, 0, 0);
+
+    background-color: rgb(156, 110, 110);
+
+    width: 200px;
+
+
+ }
+
+ .collection{
+
+    width: 400px;
+ }
+
+ footer{
+
+    width: 200px;
+ }
+
+
+
