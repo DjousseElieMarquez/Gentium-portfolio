@@ -1,0 +1,172 @@
+*{
+
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-family: cursive, sans-serif;
+    
+    
+}
+
+body{
+    
+    background-color: black;
+    color: white;
+
+}
+
+.nav{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    padding-top: 30px;
+    
+    background-color: rgba(171, 52, 52, 0.216);
+
+    border-color: white;
+}
+
+ul {
+
+    display: flex;
+
+    padding-left: 80px;
+
+    list-style-type: none;
+}
+
+ul li a{
+
+    padding-right: 50px;
+
+    text-decoration: none;
+
+    color: white;
+}
+
+ul li :hover{
+
+    color: rgb(207, 10, 43);
+
+    transition: 0.4s ease-in-out;
+
+
+}
+
+.container{
+
+    display: flex;
+
+    text-align: center;
+
+    align-items: center;
+
+    margin-top: 100px;
+
+    justify-content: space-evenly;
+
+    background-color: rgb(206, 15, 47);
+
+    height: 500px;
+
+    width: 1100px;
+
+    margin-left: 200px;
+
+    border-top-right-radius: 20px;
+
+    border-top-left-radius: 20px;
+
+}
+
+.container p{
+
+    width: 270px;
+
+    padding-top: 50px;
+
+
+}
+
+.container h2{
+    
+
+    color: rgb(60, 209, 60);
+
+    background-color: rgb(8, 64, 88);
+
+    text-align: center;
+
+    border-radius: 5px;
+
+   
+
+}
+
+.web__templates {
+
+    background-color: rgb(22, 22, 70);
+
+    height: 300px;
+
+    border-radius: 5px;
+}
+
+
+
+.web__design{
+
+    background-color: rgb(22, 22, 70);
+
+    height: 300px;
+
+    border-radius: 5px;
+
+
+
+
+}
+
+.smg{
+
+    background-color: rgb(22, 22, 70);
+
+    height: 300px;
+
+    border-radius: 5px;
+
+
+    
+}
+
+button{
+
+    margin-top: 40px;
+
+    height: 40px;
+
+    width: 200px;
+
+    background-color: rgb(55, 55, 103);
+
+    border: none;
+
+    border-top-right-radius: 15px;
+
+    border-top-left-radius: 15px;
+
+    cursor: pointer;
+}
+
+main h1{
+
+    margin-left: 620px;
+
+    margin-top: 100px;
+}
+
